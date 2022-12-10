@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/24c494a6b6.js"
+    crossorigin="anonymous"
+  ></script>
+    <style>
+        #navbar {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        #navbar>#title {
+            color: green;
+        }
+        #navbar>#sign>i{
+            margin-right: 20px;
+        }
+
+        #home {
+            width: 50%;
+            margin: auto;
+            text-align: center;
+
+
+        }
+
+        #home>a {
+            text-decoration: none;
+            margin-left: 20px;
+            color: blue;
+
+            font-size: 20px;
+        }
+
+        #block {
+            width: 90%;
+            margin: auto;
+            /* border: 1px solid red; */
+            height: 600px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 20px;
+        }
+
+        #block>div {
+            /* border: 1px solid blue; */
+            height: 600px;
+        }
+
+        #block>#first {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 30px;
+        }
+
+        #block>#first>div {
+            border: 1px solid black;
+        }
+
+        #block>#third {
+            display: grid;
+            grid-template-columns: repeat(1, 1fr);
+            gap: 30px;
+        }
+
+        #block>#third>div {
+            border: 1px solid black;
+
+        }
+
+        #block>#third>div>p>a {
+            margin-left: 15px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        #block>#third>div>h2 {
+            margin-left: 120px;
+            color: teal;
+        }
+
+        #block>#first>#login {
+            text-align: center;
+            height: 300px;
+        }
+
+        #block>#first>#faq {
+            height: 260px;
+        }
+
+        #block>#first>#faq>h2 {
+            margin-left: 140px;
+            color: red;
+        }
+
+        #block>#first>#faq>p>ul {
+            font-size: 40px;
+            color: red;
+        }
+
+        #block>#first>#login>input {
+            width: 90%;
+            margin-top: 20px;
+            height: 30px;
+            margin-bottom: 20px;
+            font-size: 16px;
+            /* border-radius: 10px; */
+        }
+
+        #block>#first>#login>button {
+            padding: 6px 20px;
+            margin-right: 10px;
+            border-radius: 7px;
+        }
+        #block>#second{
+            border: 1px solid blue;
+        }
+
+        #block>#second>h2 {
+            margin-left: 110px;
+            color: brown;
+        }
+
+        #block>#second>p {
+            margin-left: 10px;
+            font-size: 20px;
+            line-height: 24px;
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="navbar">
+        <div id="title">
+            <h2>Indian Electricity Pay Counter</h2>
+        </div>
+        <div id="sign">
+            <i class="fa-solid fa-window-minimize"></i>
+            <i class="fa-light fa-window-maximize"></i>
+            <i class="fa-solid fa-xmark"></i>
+        </div>
+
+    </div>
+
+    <div id="home">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact Us</a>
+
+    </div>
+
+
+
+    <div id="block">
+
+        <div id="first">
+
+            <div id="login">
+                <h2>Login</h2>
+                <input type="text" name="" id="" placeholder="User name">
+                <input type="password" name="" id="" placeholder="password">
+                <button>Submit</button>
+                <button>Reset</button>
+            </div>
+
+            <div id="faq">
+
+                <h2>FAQs</h2>
+                <p>
+                <ul>
+                    <li>How do I apply for a new Connection?</li>
+                    <li>How long does it take to get a new Connection?</li>
+                    <li>How much do I have to pay for a New Connection?</li>
+                    <li>How often do I get the electricity bill, is it monthly?</li>
+
+                </ul>
+                </p>
+            </div>
+        </div>
+
+
+        <div id="second">
+            <h2>Saving Electricity</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, perspiciatis. Deserunt aspernatur
+                explicabo inventore molestias cum ex, sunt dolorem. Laborum, eaque error, qui eligendi earum iure sunt,
+                mollitia accusantium architecto quam explicabo dolorum possimus atque perferendis sit sed velit
+                voluptatem enim. Autem sequi molestias quas, iste repellat rerum perspiciatis consequatur, numquam
+                commodi totam, natus mollitia accusamus architecto sed.
+                Fugit officiis tempore itaque incidunt placeat
+                assumenda voluptas laboriosam id minus, rerum quaerat atque, saepe nobis animi sint repellat impedit
+                quae accusantium. Saepe at corporis porro provident sequi nihil molestias aperiam odio, voluptate
+                quisquam magnam aut culpa dolore eveniet dicta, neque dolorum.</p>
+        </div>
+        <div id="third">
+            <div>
+                <h2>Quick Links</h2>
+                <p><a href="">1.&nbsp; Pay Your Bills</a></p>
+                <p><a href="">2.&nbsp; Consumption History</a></p>
+                <p><a href="">3.&nbsp; Nearest History</a></p>
+                <p><a href="">4.&nbsp; New Connection</a></p>
+            </div>
+            <div>
+                <h2>Quick Links</h2>
+                <p><a href="">1.&nbsp; Maharashtra</a></p>
+                <p><a href="">2.&nbsp; Delhi</a></p>
+                <p><a href="">3.&nbsp; Karnataka</a></p>
+                <p><a href="">4.&nbsp; UttarPradesh</a></p>
+
+            </div>
+        </div>
+
+    </div>
+
+</body>
+
+</html>
